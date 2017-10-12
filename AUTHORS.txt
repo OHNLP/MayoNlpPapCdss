@@ -1,12 +1,12 @@
-Kavishwar Wagholikar (Wagholikar.Kavishwar@mayo.edu)
-K.E. Ravikumar (KomandurElayavilli.Ravikumar@mayo.edu)
+Dr. Kavishwar Wagholikar (Wagholikar.Kavishwar@mayo.edu)
+Dr. K.E. Ravikumar (KomandurElayavilli.Ravikumar@mayo.edu)
 
 Expert Physician (domain expert)
 ********************************
 
-Dr. Kathy MacLaughlin (TO BE ADDED)
+Dr. Kathy MacLaughlin (MacLaughlin.Kathy@mayo.edu)
 
 Principal Investigators:
 ***********************
-Dr. Hongfang Liu (Hongfang.Liu@mayo.edu)
-Dr. Rajeev Chaudhry (TO BE ADDED)
+Dr. Rajeev Chaudhry (Chaudhry.Rajeev@mayo.edu)
+Prof. Hongfang Liu (Hongfang.Liu@mayo.edu)
