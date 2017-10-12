@@ -1,4 +1,5 @@
 /*******************************************************************************
+ *  Copyright: (c)  2014  Mayo Foundation for Medical Education and 
  *  Research (MFMER). All rights reserved. MAYO, MAYO CLINIC, and the
  *  triple-shield Mayo logo are trademarks and service marks of MFMER.
  *
