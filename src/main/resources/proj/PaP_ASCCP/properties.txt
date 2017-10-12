@@ -1,0 +1,12 @@
+SESSION_PATHS=proj/Pap_ASCCP,common
+DRL_FILE=drlInstruction.txt
+SQL_TIMEOUT_SECONDS=180
+
+timeIntervalInYears=20
+MaxSoapCalls=40
+SoapCallTimeOut=40000 
+
+CLINICAL_NOTES=ON
+SIRS=ON
+LABS=ON
+DISP=ON

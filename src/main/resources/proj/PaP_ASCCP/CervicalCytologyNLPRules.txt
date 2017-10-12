@@ -1,0 +1,137 @@
+rule1	NORMALIZE	LOWERCASE REMOVE_PUNCTUATION
+
+rule2	MARKUP	ALLTEXT	Area:$1
+
+rule3	EXTRACT	Area:diagnostic cervical	ReportOrgan:cervix
+
+rule3_5	EXTRACT	Area:screen cervical	ReportOrgan:cervix
+
+rule3_6	EXTRACT	Area:cervical endocervical	ReportOrgan:cervix
+
+rule4	EXTRACT	Area:diagnostic vaginal	ReportOrgan:vagina
+
+rule4_5	EXTRACT	Area:screen vaginal	ReportOrgan:vagina
+
+rule5	EXTRACT	Area:thinprep pap test screen	ReportType:Screening
+
+rule6 	EXTRACT	Area:glandular epithelial cell abnormality	GECA
+
+rule7	EXTRACT	Area:hpv testing was performed by digene hybrid capture ii and is positive for one or more of hpv types [\d|\s]+ and [\w|\s]+	PHPV
+
+rule8	EXTRACT	Area:hpv testing was performed by digene hybrid capture ii and is positive for one or more of hpv types	PHPV
+
+rule9	EXTRACT	Area:high risk hpv testing results are positive	PHPV
+
+rule10	EXTRACT	Area:high risk hpv testing result(s) are positive	PHPV
+
+rule11	EXTRACT	Area:high risk hpv testing result is positive	PHPV
+
+rule12	EXTRACT	Area:reference value for hpv testing negative	NHPV
+
+rule13	EXTRACT	Area:reference value for hpv testing negative	NHPV  
+
+rule14	EXTRACT	Area:atypical squamous cells cannot exclude high grade squamous intraepithelial lesion	ASCH
+
+rule15	EXTRACT	Area:inadequate endocervical transformation zone component	NOEC
+
+rule16	EXTRACT	Area:atypical squamous cells of undetermined significance	ASKS
+
+rule17	EXTRACT	Area:hpv testing cancelled due to insufficient quantity of testable material	HPVQNS
+
+rule18	EXTRACT	Area:consistent with invasive squamous cell carcinoma	SCC
+
+rule19	EXTRACT	Area:negative for intraepithelial lesion or malignancy	NIL
+
+rule20	EXTRACT	Area:hpv testing was performed by digene hybrid capture ii and is negative for hpv types [\d\s]+ and	NHPV
+
+rule13	EXTRACT	Area:hpv other high risk types pcr positive	PHPV
+
+rule22	EXTRACT	Area:an inadequate endocervical transformational zone component is not necessarily an indication for immediately repeating the pap correlation with the history and clinical exam are dummy the hpv assay was performed in the clinical virology laboratory at mayo clinic this test was developed and its performance characteristics determined by laboratory medicine and pathology mayo clinic rochester mn it has not been cleared or approved by the us food and drug administration gross description a thinprep pap test	DNOEC
+
+rule23	EXTRACT	Area:high grade squamous intraepithelial lesion	HSIL
+
+rule23_5	EXTRACT	Area:HSIL	HSIL
+
+rule24	EXTRACT	Area:low grade squamous intraepithelial lesion	LSIL
+
+rule24	EXTRACT	Area:LSIL	LSIL
+
+rule25	EXTRACT	Area:other malignant neoplasm	OMN
+
+rule26	EXTRACT	Area:unsatisfactory for evaluation	CytologyType:unsatisfactory for evaluation
+
+rule27	EXTRACT	Area:reflex	HpvTestType:reflex
+
+rule28	EXTRACT	Area:hpv high risk type 16 pcr negative	NHPV16
+
+rule29	EXTRACT	Area:hpv high risk type 16 pcr negative	NHPV
+
+rule30	EXTRACT	Area:hpv high risk type 16 pcr positive	PHPV16
+
+rule31	EXTRACT	Area:hpv high risk type 16 pcr positive	PHPV
+
+rule32	EXTRACT	Area:hpv high risk type 18 pcr negative	NHPV18
+
+rule33	EXTRACT	Area:hpv high risk type 18 pcr negative	NHPV
+
+rule34	EXTRACT	Area:hpv high risk type 18 pcr positive	PHPV18
+
+rule35	EXTRACT	Area:hpv high risk type 18 pcr positive	PHPV
+
+rule36	INFER	HSIL || ASCH || SCC || GECA	CytologyType:abnormal(other than ASCUS)
+
+rule37	INFER	LSIL	CytologyType:LSIL
+
+rule38	INFER	ASKS	CytologyType:ASCUS
+
+rule39	INFER	NIL	CytologyType:negative
+
+rule40	INFER	NHPV	HpvTest:negative
+
+rule41	INFER	PHPV16	HpvTest:positive
+
+rule42	INFER	PHPV18	HpvTest:positive
+
+rule43	INFER	NHPV16 && NHPV18	HpvTest:negative
+
+rule44	INFER	PHPV	HpvTest:positive
+
+rule45	INFER	PHPV16 || PHPV18	Hpv1618:positive
+
+rule46	INFER	NHPV16 && NHPV18	Hpv1618:negative
+
+rule47	INFER	NOEC	EndocervicalZoneComponent:inadequate
+
+rule48	DEFAULT	ReportType:Diagnostic
+
+rule49	DEFAULT	HpvTest:not_performed
+
+rule50	DEFAULT	Hpv1618:not_performed
+
+rule51	DEFAULT	HPVQNS:false
+
+rule52	INFER	( HpvTest:not_performed || HPVQNS ) & !HpvTestType:reflex 	 HpvTestType:cytology_only
+
+rule53	INFER	HSIL	HSIL:true
+
+rule54	INFER	ASCH	ASCH:true
+
+rule55	INFER	AGC	AGC:true
+	
+rule56	DEFAULT	HpvTestType:cotest
+
+rule57	DEFAULT	CytologyType:ERROR-NotDescribed
+
+rule58	DEFAULT	EndocervicalZoneComponent:adequate
+
+rule59	DEFAULT	ReportOrgan:unknown
+
+rule60	DEFAULT	HSIL:false
+
+rule61	DEFAULT	ASCH:false
+
+rule62	DEFAULT	AGC:false
+
+rule63	DEFAULT	version:10-22-2015
+
+rule64	OUTPUT	ReportOrgan ReportType HpvTest Hpv1618 HpvTestType CytologyType EndocervicalZoneComponent HSIL ASCH AGC version 

@@ -1,0 +1,194 @@
+HIV,42,2200670,hiv,cervical_cancer_risk
+HIV Asymptomatic,V08,2214827,hiv,cervical_cancer_risk
+HIV Encephalopathy,42,2216035,hiv,cervical_cancer_risk
+HIV Nephropathy,42,2216955,hiv,cervical_cancer_risk
+HIV Or AIDS In Preg Antepartum,647.63,2222274,hiv,cervical_cancer_risk
+HIV Or AIDS In Preg Postpartum,647.64,2222275,hiv,cervical_cancer_risk
+HIV Positive,42,2216000,hiv,cervical_cancer_risk
+HIV Serology Nonspecific,795.71,2211651,hiv,cervical_cancer_risk
+HIV Type2 Infection NOS,79.53,2200949,hiv,cervical_cancer_risk
+HIV W AIDS,42,2216001,hiv,cervical_cancer_risk
+Dementia From HIV,42,2219448,hiv,cervical_cancer_risk
+Dementia From HIV w Behave Problem,42,2219449,hiv,cervical_cancer_risk
+Facial Ids w hiv(Facial Lipodystrophy Syndrome W HIV),272.6,2224370,hiv,cervical_cancer_risk
+Facial Lipodystrophy Syndrome W HIV,272.6,2224370,hiv,cervical_cancer_risk
+Wasting Syndrome From HIV,799.4,2216995,hiv,cervical_cancer_risk
+Adenocarcinoma of endocetvix(Ca Endocervix),180,2201707,cervicalca,cervical_cancer_risk
+Ca Cervix,180.9,2201710,cervicalca,cervical_cancer_risk
+Ca Cervix Hiqh Risk,V15.89,2217855,cervicalca,cervical_cancer_risk
+Ca Cervix Multiple Sites,180.8,2201709,cervicalca,cervical_cancer_risk
+Ca Cervix Pers Hx,V10.41,2214870,cervicalca,cervical_cancer_risk
+Ca Endocervix,180,2201707,cervicalca,cervical_cancer_risk
+Ca Exocervix,180.1,2201708,cervicalca,cervical_cancer_risk
+Ca In Situ Cervix,233.1,2202417,cervicalca,cervical_cancer_risk
+Ca In Situ Cervix Pers Hx,V10.41,2221550,cervicalca,cervical_cancer_risk
+Ca in situ endocervix(Ca In Situ Endocervical),233.1,2223109,cervicalca,cervical_cancer_risk
+DES Exposure When Was Fetus Not Preq Now,V15.89,2220908,des,cervical_cancer_risk
+DES When Preq Mom Was Fetus,V23.89,2220599,des,cervical_cancer_risk
+Fetal DES Toxicity Via Placenta,760.76,2210349,des,cervical_cancer_risk
+Immunosuppressed State NOS,279.3,2219434,immuno-deficiency,cervical_cancer_risk
+Ca Transplanted Kidney,199.2,2223950,transplant,cervical_cancer_risk
+Kidney transplant(Renal Transplant),V42.00,2215199,transplant,cervical_cancer_risk
+Kidney Transplant Complication,996.81,2214671,transplant,cervical_cancer_risk
+Kidney Transplant Rejection,396.81,2214672,transplant,cervical_cancer_risk
+Post Transplant Lymphoprolif Dis Kidney,238.77,2223764,transplant,cervical_cancer_risk
+Renal Transplant,V42.00,2215199,transplant,cervical_cancer_risk
+Aftercare Following Heart Transplant,V58.44,2222503,transplant,cervical_cancer_risk
+Ca Transplanted Heart,199.2,2223946,transplant,cervical_cancer_risk
+Cad cabg transplanted heart(CAD Of Bypass Graft Transplanted Heart),414.07,2220231,transplant,cervical_cancer_risk
+CAD Of Bypass Graft Transplanted Heart,414.07,2220231,transplant,cervical_cancer_risk
+CAD Of Transplanted Heart,414.06,2218397,transplant,cervical_cancer_risk
+Heart Lung Transplant,V42.1,2216679,transplant,cervical_cancer_risk
+Heart Transplant,V42.1,2215200,transplant,cervical_cancer_risk
+Heart Transplant Complication,996.83,2214675,transplant,cervical_cancer_risk
+Heart Transplant Rejection,996.83,2214676,transplant,cervical_cancer_risk
+Post Transplant Lymphoprolif Dis Heart,238.77,2223762,transplant,cervical_cancer_risk
+Aftercare Following Lung Transplant,V58.44,2222507,transplant,cervical_cancer_risk
+Ca Transplanted Lung,199.2,2223948,transplant,cervical_cancer_risk
+Double Lung Transplant,V42.6,2216678,transplant,cervical_cancer_risk
+Heart Lung Transplant,V42.1,2216679,transplant,cervical_cancer_risk
+Lung Liver Transplant,V42.6,2216680,transplant,cervical_cancer_risk
+Lung Transplant,V42.6,2215205,transplant,cervical_cancer_risk
+Lung Transplant Complication,996.84,2214677,transplant,cervical_cancer_risk
+Lung Transplant Rejection,996.84,2214678,transplant,cervical_cancer_risk
+Post Transplant Lymphoprolif Dis Lung,238.77,2223761,transplant,cervical_cancer_risk
+Intestinal complication s/p transplant(lntestinal Transplant Complication),996.87,2217081,transplant,cervical_cancer_risk
+Intestinal Transplant Complication,996.87,2217081,transplant,cervical_cancer_risk
+Intestine Transplant,V42.84,2217130,transplant,cervical_cancer_risk
+Intestine Transplant Complication,996.87,2217129,transplant,cervical_cancer_risk
+Aftercare Following Liver Transplant,V58.44,2222330,transplant,cervical_cancer_risk
+Ca Transplanted Liver,199.2,2223949,transplant,cervical_cancer_risk
+Liver Transplant,V42.7,2215206,transplant,cervical_cancer_risk
+Liver Transplant Bile Leak,996.82,2216152,transplant,cervical_cancer_risk
+Liver Transplant Complication,996.82,2214673,transplant,cervical_cancer_risk
+Liver Transplant Rejection,996.82,2214674,transplant,cervical_cancer_risk
+Lung Liver Transplant,V42.6,2216680,transplant,cervical_cancer_risk
+Post Transplant Lymphoprolif Dis Liver,238.77,2223763,transplant,cervical_cancer_risk
+Aftercare Following Pancreas Transplant,V58.44,2222511,transplant,cervical_cancer_risk
+Ca Transplanted Pancreas,199.2,2223944,transplant,cervical_cancer_risk
+Pancreas Transplant,V42.83,2215209,transplant,cervical_cancer_risk
+Pancreas Transplant Complication,996.86,2214681,transplant,cervical_cancer_risk
+Pancreas Transplant Rejection,996.86,2214682,transplant,cervical_cancer_risk
+Post Transplant Lymphoproli Dis Pancreas,238.77,2223759,transplant,cervical_cancer_risk
+Aftercare Post Bone Marrow Transplant,V58.44,2222509,transplant,cervical_cancer_risk
+Organ Transplant NOS,V42.9,2215211,transplant,cervical_cancer_risk
+Organ Transplant NOS Complication,996.8,2214668,transplant,cervical_cancer_risk
+Organ Transplant NOS Rejection,996.8,2214669,transplant,cervical_cancer_risk
+//
+Hysterectomy Abdominal S/p,V88.01,2220824,hysterectomy
+Hysterectomy Non-Malignant S/p,V88.01,2223183,hysterectomy
+Hysterectomy S/p,V88.01,2219350,hysterectomy
+Hysterectomy Vaginal S/p,V88.01,2220825,hysterectomy
+Ca Screening Post Hysterectomy,V76.49,2215639,hysterectomy
+Cervical Stump Persist S/p Hysterectomy,V88.02,2221162,hysterectomy
+Prolapse Vaginal Vault Post Hysterectomy,618.5,2207150,hysterectomy
+//
+Ca cervix intraepithel neoplasia pers hx(CIN Cervix Intraepith Neoplasia Pers Hx),V13.29,2216160,cin,cin23history
+Cervical dysplasia nos(Cervix dysplasia NOS),622.1,2221878,dysplasia,cin23history
+Cervical Dysplasia Pers Hx,V13.22,2221423,dysplasia,cin23history
+//Adenocarcinoma Cervix In Situ CIS,D06.9,2221423,cis
+//Ca In Situ Cervix (CIS) Pers Hx,Z86.001,2216160,cis
+//Ca Cervix In Situ (CIS),D06.9,2221878,cis 
+//CIN II, moderate dysplasia,,
+//Lesion moderate squamous intraepithelial cervix (CIN II)
+//Lesion severe squamous intraepithelial cervix (CIN III)
+//CIN II, moderate dysplasia (622.12)
+//CIN III, cervix (233.1)
+Ca Cervix In Situ (CIS),D06.90,2202417,cin,cin23history
+Lesion Severe Squamous Intraepithelial Cervix (CIN III),D06.90,2221880cin,cin23history
+Adenocarcinoma Cervix In Situ CIS,D06.90,2223301,cin,cin23history
+Ca In Situ Cervix (CIS) Pers Hx,Z86.001,2221550,cin,cin23history
+Lesion Moderate Squamous Intraepithelial Cervix (CIN II),N87.10,2221879,cin,cin23history
+
+Abnormal colposcopy(Abnormal Cervix Colposcopic),793.5,2221131,colposcopy
+Abnormal Cervix Colposcopic,793.5,2221131,colposcopy
+
+Ca Colon Recurrent,153.9 ,2220652,colonCancer
+Ca Colon Recurrent Anastomatic,153.9 ,2221335,colonCancer
+Ca Colon Sigmoid Pers Hx,V10.05,2220655,colonCancer
+Ca Colon Splenic Flexure,153.7 ,2201540,colonCancer
+Ca Colon Transverse Pers Hx,V10.05,2220656,colonCancer
+Ca In Situ Colon,230.3 ,2202388,colonCancer
+Ca of the colon cecum(Ca Colon Cecum),153.4 ,2220651,colonCancer
+Ca Transverse Colon,153.1 ,2201534,colonCancer
+Carcinoid Colon Malignant,153.9 ,2222597,colonCancer
+Hereditary Non Polyposis Colon Ca,153.9 ,2220868,colonCancer
+Ca Colon Adenocarcinoma,153.9 ,2201542,colonCancer
+Ca Colon Ascending,153.6 ,2201539,colonCancer
+Ca Colon Ascending Pers Hx,V10.05,2220653,colonCancer
+Ca Colon Cecum,153.4 ,2220651,colonCancer
+Ca Colon Cecum Pers Hx,V10.05,2220654,colonCancer
+Ca Colon Descending,153.2 ,2201535,colonCancer
+Ca Colon Hepatic Flexure,153.0 ,2201533,colonCancer
+Ca Colon Multiple Sites,153.8 ,2201541,colonCancer
+Ca Colon NOS,153.9 ,2201543,colonCancer
+Ca Colon NOS Pers Hx,V10.05,2221230,colonCancer
+Ca Colon Primary Pers Hx,V10.05,2214851,colonCancer
+Ca Colon Rectosigmoid Junction,154.0 ,2201544,colonCancer
+Polyp Ascending Colon Malignant,153.6 ,2223171,colonCancer
+Polyp Colon Malignant NOS,153.9 ,2223172,colonCancer
+Polyp Descending Colon Malignant,153.2 ,2223170,colonCancer
+Polyp Transverse Colon Malignant,153.1 ,2223169,colonCancer
+Ca Sigmoid Colon,153.3,2201536,colonCancer
+//
+Polyp Colon Adenomatous,5.1.7,2202212,colon_polyp
+Polyp Anal,569.0,2206582,colon_polyp
+Polyp Anal Pers Hx,V12.79,2220636,colon_polyp
+Polyp anus(Polyp Anal),569.0,2206582,colon_polyp
+Polyp Colon,211.3,2215792,colon_polyp
+Polyp Colon Adenomatous,211.3,2202212,colon_polyp
+Polyp Colon Adenomatous Fam Hx,V18.51,2217077,colon_polyp
+Polyp Colon Adenomatous Pers Hx,V12.72,2217072,colon_polyp
+Polyp Colon Hyperplastic,211.3,2202214,colon_polyp
+Polyp Colon Malignant,153.9,2223172,colon_polyp
+Polyp Colon Pedunculated,211.3,2221618,colon_polyp
+Polyp Colon Pers Hx,V12.72,2214941,colon_polyp
+Polyp Rectal Adenomatous,211.4,2202216,colon_polyp
+Polyp Rectal adenomatous Pers Hx,V12.79,2220686,colon_polyp
+Polyp Rectal NOS,569.0,2206581,colon_polyp
+
+Polyposis Colon Familial,211.3,2215962,colon_cancer_risk_syndrome
+Polyposis Familial Adenomatous,211.3,2216649,colon_cancer_risk_syndrome
+Ca Colon Hereditary Non Polyposis,153.9,2220868,colon_cancer_risk_syndrome
+Familial Adenomatous Polyposis Fam Hx,V18.51,2217090,colon_cancer_risk_syndrome
+Familial Adenomatous Polyposis Fam Hx,V18.51,2217090,colon_cancer_risk_syndrome
+Hereditary Non Polyposis Colon Ca Fam hx,V16.0,2221536,colon_cancer_risk_syndrome
+//
+Ca Colon Fam Hx, ,2214986,colon_cancer_family_history
+//
+
+
+Hnpcc lynch syndrome(Ca Colon Hereditary Non Polyposis),153.9,2220868,CRC_Syndrome
+Hereditary Non Polyposis Colon Ca Fam hx,V16.0,2221536,CRC_Syndrome
+Ca Colon Hereditary Non Polyposis,153.9,2220868,CRC_Syndrome
+Muir Torre Syndrome Benign,216.9,2219082,CRC_Syndrome
+Muir Torre Syndrome Malignant,173.99,2219083,CRC_Syndrome
+Familial Adenomatous Polyposis Fam Hx,V18.51,2217090,CRC_Syndrome
+Polyposis Familial Adenomatous,211.3,2216649,CRC_Syndrome
+Polyposis Colon Familial,5.1.7,2215962,CRC_Syndrome
+Cowden Syndrome,759.6,2218837,CRC_Syndrome
+Peutz Jeghers Syndrome,759.6,2210776,CRC_Syndrome
+Tuberous Sclerosis,759.5,2210773,CRC_Syndrome
+Gardner Syndrome,211.3,2217411,CRC_Syndrome
+Polyposis Colon Familial,211.3,2215962,CRC_Syndrome
+
+Inflammatory Bowel Disease,558.9,2206611,IBD_History
+Spondylitis W Inflammatory Bowel Disease,558.9,2216984,IBD_History
+Colitis Ulcerative Chronic,556.9,2206498,IBD_History
+Crohn's Disease Gastroduodenal,555,2216641,IBD_History
+Crohn's Disease Ileocolic,555.2,2220631,IBD_History
+Crohn's Disease Large Intestine,555.1,2220632,IBD_History
+Crohn's Disease NOS,555.9,2206490,IBD_History
+Crohn's Disease Perianal,555.1,2216642,IBD_History
+Crohn's Disease Pers Hx,V12.79,2219323,IBD_History
+Crohn's Disease Small Intestine,555,2220630,IBD_History
+Crohns disease ileocolitis(Crohn's Disease Ileocolic),555.2,2220631,IBD_History
+Crohns disease of the colon(Crohn's Disease Large Intestine),555.1,2220632,IBD_History
+Crohns disease of the small bowel(Crohn's Disease Small Intestine),555,2220630,IBD_History
+Crohns perianal anal(Crohn's Disease Perianal),555.1,2216642,IBD_History
+Ibd(Inflammatory Bowel Disease),558.9,2206611,IBD_History
+Arthritis w ibd(Inflam Bowel Dis W Associated Arthritis ),564.1,2208892,IBD_History
+Dermatitis Perioral,,2208601,IBD_History
+//
+Colectomy Total S/p,V45.72,2219529,total_colectomy
+//
